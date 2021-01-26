@@ -1,0 +1,153 @@
+.loginRegisterItems {
+  margin-right: 10px;
+}
+.logoutBtncontainer {
+  clear: right;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 20px;
+}
+.loginRegisterContainer {
+  clear: right;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 10px;
+}
+
+.askbuttonWrapper {
+  position: absolute;
+  right: 17px;
+}
+.ques{
+  cursor:pointer;
+}
+.brand {
+   cursor: pointer;
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 0.5rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.leftBar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 25px;
+}
+.reallyCentral{
+  width:88%;
+}
+.centralArea {
+  overflow: auto;
+  height: 90vh;
+  width: 85%;
+  position: fixed;
+  z-index: 1;
+  left: 210px;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 25px;
+}
+.headingquestionlabel{
+  cursor: pointer;
+  color: 	#707070;
+  font-size: 20px;
+}
+.topQuestionbar{
+  background-color: #F0F8FF;
+  height:86px;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-radius: 3px;
+}
+
+.leftBarItems {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#searchbox {
+  margin-left: 80px;
+  width: 43%;
+}
+.OneQuestionAnswerContainer{
+
+}
+.oneQuestionContainer{
+  margin-bottom: 18px;
+  background-color: #AFDBF5;
+  padding-left: 20px;
+  padding-right:10px;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display:flex;
+  flex-direction: column;
+}
+.questionSpace{
+  background-color: white;
+  border: 2px solid #00538C;
+  border-radius: 4px;
+  width:90px;
+  padding-left: 3px;
+  font-size: 15px;
+}
+
+.creatorName{
+  background-color: lightgrey;
+  width:100px;
+  margin-top: 10px;
+  height:30px;
+  padding-left: 2px;
+
+}
+.date{
+  font-size:13px;
+}
+.questionAllContentContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.nameandQuestionContainer{
+  display:flex;
+  flex-direction: row;
+}
+.questionTitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+.questionContent{
+  font-size: 16px;
+}
+.upvote{
+  font-size: 15px;
+  cursor: pointer;
+}
+.upvoteAnswerContainer{
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  gap:40px;
+  margin-top: 7px;
+}
+.answer{
+  font-size:15px;
+  cursor: pointer;
+}

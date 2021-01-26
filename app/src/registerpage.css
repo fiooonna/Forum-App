@@ -1,0 +1,63 @@
+
+.registerRoot{
+  position:relative;
+    top:100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.registerpageContainer{
+  background-color: lightblue;
+    height:400px;
+    width:550px;
+    display:table-cell;
+    text-align: center;
+    border-radius: 5px;
+}
+.createAccountText{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.labelandinputcontainer{
+  display:flex;
+  flex-direction:row;
+  margin-bottom: 20px;
+
+}
+.namelabel{
+  margin-right: 90px;
+  margin-left: 20px;
+}
+.emaillabel{
+  margin-right: 93px;
+  margin-left: 20px;
+}
+
+.passwordlabel{
+  margin-right: 62px;
+  margin-left: 20px;
+}
+
+.confirmationlabel{
+  margin-right: 38px;
+  margin-left: 20px;
+}
+.inputField{
+  width:260px;
+}
+
+
+
+.registerpageBtn{
+  width: 100px;
+  background-color: lightgrey;
+  display: flex;
+  cursor: pointer;
+  border-radius: 2px;
+  position: relative;
+  border: 1px solid black;
+  margin-left: 41%;
+  text-align: center;
+  padding-left: 3.2%;
+  margin-top: 40px;
+}

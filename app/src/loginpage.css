@@ -1,0 +1,72 @@
+.rootWrap{
+  position:relative;
+    top:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signinContainer{
+  background-color: lightblue;
+    height:230px;
+    width:440px;
+    display:table-cell;
+    text-align: center;
+    border-radius: 5px;
+}
+.signinText{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.emailpasswordContainer{
+  display:flex;
+  flex-direction:row;
+  margin-bottom: 10px;
+
+}
+.emailtext{
+  margin-right: 61px;
+  margin-left: 20px;
+}
+.passwordtext{
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.loginBtn{
+  width: 80px;
+  background-color: lightgrey;
+  display: flex;
+  cursor: pointer;
+  border-radius: 2px;
+  position: relative;
+  border: 1px solid black;
+  margin-left: 41%;
+  text-align: center;
+  padding-left: 3.7%;
+  margin-top: 24px;
+}
+.registerBtn{
+  width: 100px;
+  height:30px;
+  background-color: #f8f9fa;
+  text-decoration-color: black;
+  color: black;
+  display: flex;
+  cursor: pointer;
+  border-radius: 2px;
+  position: relative;
+  border: 1px solid black;
+  margin-left: 39%;
+  text-align: center;
+  padding-left: 4.8%;
+  margin-top: 24px;
+}
+.registerContainer{
+  background-color: white;
+  height:230px;
+  width:440px;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
