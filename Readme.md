@@ -9,17 +9,17 @@ mongod: v4.4.1
 
 To start the MongoDB database:
 1. go to the directory where mongodb is installed
-  mongod --dbpath "PATH/backend/data"
+   --> mongod --dbpath "PATH/backend/data"
 2. go to the directory where mongodb is installed
-  mongo
-  use forum
+   --> mongo
+   --> use forum
 3. cd backend
-  nodemon server
+   --> nodemon server
 
 
 To start web server:
 cd projectapp
-npm start
+--> npm start
 
 To access the main page:
 http://localhost:3000/main
